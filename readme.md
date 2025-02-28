@@ -1,6 +1,6 @@
-# this repository is for npmjs kwztr package.
+# this repository is for npmjs transliterate_indian_languages package.
 
-kwztr is a module to transliterate indian languages.
+transliterate_indian_languages is a module to transliterate indian languages.
 
 1. assami
 1. bengαli/banglα
@@ -22,7 +22,7 @@ this module to be used in the webextension:
 ### source code eksecution phlo
 
 1. package.json -> main is called/run : ("main": "kwztr.js" , kwztr.js)
-2. class transliterator
+2. class kwztr
    1. transliterate(input_str,ztr_direction_const=u_to_i)
    2. transliterate_dom_node(node_arg, ztr_direction_const=u_to_i)
    3. untransliterate_dom_node()
@@ -58,7 +58,7 @@ heksadesiml dizits : 0 1 2 3 4 5 6 7 8 9 Y J Q W P F
 1. import library as in your js file:
 
 ```js
-import kwztr from 'kwztr';
+import kwztr from 'transliterate_indian_languages';
 const unicode_str = 'हिन्दी विकिपीडिया' ;
 let t = new kwztr();
 let ing31str = t.transliterate(unicode_str,"u_to_i");
