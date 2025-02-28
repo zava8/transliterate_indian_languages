@@ -1,7 +1,6 @@
-# this repository is for npmjs transliterate_indian_languages package.
+# transliterate_indian_languages repository is for npmjs kvz-transliteration package.
 
-transliterate_indian_languages is a module to transliterate indian languages.
-
+kvz-transliteration is a package to transliterate indian,nepal,bangladesh,srilankan languages.
 1. assami
 1. bengαli/banglα
 2. oriyα/odiα
@@ -16,13 +15,13 @@ transliterate_indian_languages is a module to transliterate indian languages.
 11. sanskriт
 12. sinɦalα
 
-this module to be used in the webextension:
-1. [firefox addon ztr](//addons.mozilla.org/en-US/firefox/addon/ztr/).
+this module(kvz-transliteration) is used in the webextension:
+1. [firefox addon ztr](https://addons.mozilla.org/en-US/firefox/addon/ztr/).
 
-### source code eksecution phlo
+### source code execution flo
 
-1. package.json -> main is called/run : ("main": "kwztr.js" , kwztr.js)
-2. class kwztr
+1. kvz-transliteration package.json -> main is called/run : ("main": "kwztr.js" , kwztr.js)
+2. in kwztr.js class kwztr is defined and exported. class kwztr members αre :
    1. transliterate(input_str,ztr_direction_const=u_to_i)
    2. transliterate_dom_node(node_arg, ztr_direction_const=u_to_i)
    3. untransliterate_dom_node()
@@ -58,9 +57,13 @@ heksadesiml dizits : 0 1 2 3 4 5 6 7 8 9 Y J Q W P F
 1. import library as in your js file:
 
 ```js
-import kwztr from 'transliterate_indian_languages';
-const unicode_str = 'हिन्दी विकिपीडिया' ;
+import kwztr from 'kvz-transliteration';
+const unicode_str = 'हिन्दी ज्ञ संस्कृत दुर्लभ श्रृंगार ज्ञानवापी विकिपीडिया' ;
 let t = new kwztr();
 let ing31str = t.transliterate(unicode_str,"u_to_i");
+
+[this repository](https://github.com/zava8/transliterate_indian_languages.git) has a test folder.
+to test this package run from test directory :
+1. node script.js
 
 [code_map_sheet]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRYY_On0oQlYqCH8KrAuNy9nxnUKRx9dG6UvjoZjbP1ZVeXX6VcHl-sU2yg9jbAFszCcNZ5STK47_rz/pubhtml
