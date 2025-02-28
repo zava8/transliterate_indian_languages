@@ -1,0 +1,28 @@
+{
+  "name": "kvz-transliteration",
+  "version": "1.0.23",
+  "description": "kvz-transliteration is a package to transliterate indian,srilankan,nepal,bangladesh languages",
+  "main": "kwztr.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zava8/transliterate_indian_languages.git"
+  },
+  "keywords": [
+    "transliterator",
+    "transliterate",
+    "hindi",
+    "hindi"
+  ],
+  "author": "vimalkg@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zava8/transliterate_indian_languages/issues"
+  },
+  "homepage": "https://github.com/zava8/transliterate_indian_languages#readme"
+}
