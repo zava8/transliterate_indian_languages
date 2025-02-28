@@ -1,6 +1,6 @@
 {
   "name": "kvz-transliteration",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "kvz-transliteration is a package to transliterate indian,srilankan,nepal,bangladesh languages",
   "main": "kwztr.js",
   "directories": {
